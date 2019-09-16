@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/anchor"
+        android:background="@drawable/circle"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_vertical|left"
+        android:layout_margin="12dp"
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Titre 1"
+        android:layout_gravity="center_vertical|center"
+        android:textSize="14dp"
+        android:id="@+id/titre"
+        android:textColor="@color/white"
+        android:paddingTop="12dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="12dp"/>
+    <Button
+        android:id="@+id/bsuppm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supprimer"
+        android:layout_marginRight="12dp"
+        android:layout_gravity="center_vertical|right"
+        android:background="@drawable/rectangle2"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:layout_margin="12dp"/>
+</LinearLayout>

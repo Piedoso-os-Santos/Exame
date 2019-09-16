@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exame</string>
+    <string name="exame">Exam</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="notre_principal_objectif_est_de_fournir_un_outil_d_valuation_ducative">Notre principal objectif est de fournir un outil d\'évaluation éducative efficace</string>
+</resources>

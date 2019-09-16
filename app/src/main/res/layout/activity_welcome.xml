@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welcome"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ronomicro.exame.welcome">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView2"
+        android:layout_weight="2"
+        android:layout_marginTop="30dp"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exame"
+        android:layout_weight="2"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notre_principal_objectif_est_de_fournir_un_outil_d_valuation_ducative"
+        android:layout_weight="2"
+        android:textSize="15sp"
+        android:textColor="@color/holderColer"
+        android:gravity="center"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="12dp"
+        android:autoText="false"
+        android:background="@drawable/button2"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:onClick="con"
+        android:text="@string/se_connecter"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="Deprecated,TextViewEdits,UnusedAttribute"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button1"
+        android:onClick="ins"
+        android:text="@string/s_inscrire"
+        android:textColor="@color/white"
+        />
+</LinearLayout>

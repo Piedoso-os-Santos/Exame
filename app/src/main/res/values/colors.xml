@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#08985b</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#08985b</color>
+    <color name="windowsBackground">#333</color>
+    <color name="navigationBarColor">#333</color>
+    <color name="secondColor">#e9eaea</color>
+    <color name="white">#fff</color>
+    <color name="holderColer">#7e7d7d</color>
+
+    <!--Autre catégorie-->
+    <!--
+        <color name="colorPrimary">#E4C478</color>
+        <color name="colorPrimaryDark">#A44A4A</color>
+        <color name="colorAccent">#E4C478</color>
+        <color name="windowsBackground">#A44A4A</color>
+        <color name="navigationBarColor">#A44A4A</color>
+        <color name="secondColor">#eee</color>
+        <color name="white">#fff</color>
+        <color name="holderColer">#7e7d7d</color>-->
+    </resources>

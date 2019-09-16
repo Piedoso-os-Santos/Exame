@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ronomicro.exame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".demmarage"  android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".welcome" android:theme="@style/Theme.AppCompat.Light.NoActionBar1"/>
+        <activity android:name=".connection" android:theme="@style/Theme.AppCompat.Light.NoActionBar1"/>
+        <activity android:name=".inscription" android:theme="@style/Theme.AppCompat.Light.NoActionBar1" />
+        <activity android:name=".profile" />
+        <activity android:name=".about" android:theme="@style/Theme.AppCompat.Light.NoActionBar1"/>
+        <activity android:name=".passage_entre" android:theme="@style/Theme.AppCompat.Light.NoActionBar1"/>
+        <activity android:name=".module" />
+        <activity android:name=".specialite" />
+        <activity android:name=".pile" />
+        <activity android:name=".question" />
+        <activity android:name=".reponse" />
+        <activity android:name=".exam" />
+        <activity android:name=".editprofile" />
+        <activity android:name=".professeur_select" />
+        <activity android:name=".spec_select" />
+        <activity android:name=".exam_select" />
+    </application>
+
+</manifest>
